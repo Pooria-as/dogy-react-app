@@ -5,7 +5,7 @@ class DogDetail extends React.Component {
     render() { 
         let {dog}=this.props
         return <div className="card DogDetails-card" style={{ width: '18rem' }}>
-                    <img src={dog.src} className="card-img" alt={dog.name} />
+                    <img src={dog.src} className="img-thumbnail" alt={dog.name} />
                     <div className="card-body">
                         <h5 className="card-title">{dog.name}</h5>
                         <p className="card-text">
